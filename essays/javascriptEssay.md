@@ -9,7 +9,6 @@ labels:
   - JavaScript
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../273BC1B9-9885-419F-B014-AD95F007C4A3.jpeg">
 
 ## Compare to other programming language
 It's been a few weeks since I started using JavaScript, but I've used Java and C++ before, so I don't think there's much of a difference in terms of basics. However, since they are all different programming languages, there are differences in how they work and how they are written, and writing algorithms is no exception. Algorithms can be written in other languages, but they may not work well in JavaScript.
