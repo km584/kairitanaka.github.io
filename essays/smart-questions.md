@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Good questions will help a lot in knowledge"
 # All dates must be YYYY-MM-DD format!
 date: 2015-09-08
 published: true
@@ -11,89 +11,27 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
-## Is there such thing as a stupid question?
+## What could be a bad questions?
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+Sometimes people ask questions that they don't understand and this is because of the content of the question. The way to ask a good question is to write the question in an easy-to-understand manner so that the person who reads it understands why they are worried or stuck. This is
+because the respondent does not know what to answer with a rough question because he does not know the questioner's situation or what he is 
+confused about. And if you still don't understand after searching for a solution by searching on websites etc. before asking a question, you 
+can write more details when you ask a question, so it will be a better question and the respondent will have a clearer solution to the problem
+and can give you a better answer. Since the respondent does not know the details of the questioner's internal situation or the current problem, the question should be more detailed and give the information necessary for the respondent to recognize the problem.
 
-## What’s a smart question?
+## Bad question example:
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+https://stackoverflow.com/questions/37093182/why-my-program-doesnt-work
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+This is a bad question because the title is "why my program doesn't work" and it roughly asks do you know how to fix the error. It looks like you asked to fix the error without even searching. Since it was a vague question with no actual results from searching or doing different methods, the respondents didn't give a direct answer, and some gave hints, but I think this is a bad question because they don't know the situation.
 
-```
-Q: python date of the previous month
+## Good question example:
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+https://stackoverflow.com/questions/23411520/how-to-fix-error-laravel-log-could-not-be-opened
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+I think this question is a good question because you write down which error is causing the problem and you write in more detail what you did and take a picture. Here we have put enough information into the question to the solution so that the respondent can better understand what the problem is and what is causing the error.
 
 ## Conclusion
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+In conclusion, a good question is to write a clearer question using the knowledge obtained from searching on the Internet, etc., so that the respondent can know in detail what the questioner wants to know about. can. And since the respondent has to know how much knowledge they have, how much they understand the current situation, and answer the situation with the information obtained from the question, if the question has more information, the respondent can imagine the answer. However, if this is a broad question such as what is JavaScript, the respondent will not know what to answer because it is a loose question. Therefore, before asking a question, I think it will lead to a good question by searching for the answer by yourself and clearly writing down what you want to ask about.
