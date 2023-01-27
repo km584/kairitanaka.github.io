@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Good questions will help a lot in knowledge"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2023-01-26
 published: true
 labels:
   - Questions
