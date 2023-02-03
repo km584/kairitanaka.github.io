@@ -11,7 +11,7 @@ labels:
 summary: "A pokedex of Pokemon created in ICS 211."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM0ra0RcpLzm2O6rw49PCpySrMwfq9xfESyQ&usqp=CAU">
 
 In this project it is using class in class by calling function to implement the class objects. This project have at least four file to make a pokedex that makes function to put out the Pokemon datas but the data of Pokemon status and type have to be create file and implement in the class. It could add more Pokemon by creating the class of Pokemon status and type of Pokemon, also it could be possible to make Pokedex that stores the every Pokemon by implementing the all Pokemon class.
 
@@ -20,6 +20,8 @@ In this project it is using class in class by calling function to implement the 
 <pre>
 
 The below are part of pokedex function that takes user input by switch statement that output the add, remove and prints Pokemon in pokedex by array by using function calls.
+
+
 
 ```
 import java.util.Scanner;
@@ -82,6 +84,7 @@ import java.util.Scanner;
        }
     }
 ```
+
 
 </pre>
 
