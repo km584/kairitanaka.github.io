@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://user-images.githubusercontent.com/89556168/216536157-0f427213-2723-4c0b-a184-b66e7e63e596.jpeg
+image: img/Pokemon Pokedex Data.png
 title: "Pokedex"
 date: 2021
 
