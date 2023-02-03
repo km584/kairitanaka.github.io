@@ -27,4 +27,4 @@ This is the part of the cord that use to figure out the number of places by turn
         printf(" = ");
 ```
 
-Source: <a href="https://github.com/km584/km584.github.io/blob/main/a7km321.c">PokemonFrame</a>
+Source: <a href="https://github.com/km584/km584.github.io/blob/main/a7km321.c">NumberIntoJapanese</a>
