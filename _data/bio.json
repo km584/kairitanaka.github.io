@@ -4,10 +4,10 @@
     "label": "Student",
     "picture": "https://github.com/km584.png",
     "email": "km321@hawaii.edu",
-    "phone": "",
+    "phone": "808-784-8098",
     "website": "https://km584.github.io",
     "summary": "I am studying for Computer Science in the University of Hawaii at Manoa. I plan to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "address": "", "postalCode": "96815", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "km584", "url": "http://github.com/km584" },
       { "network": "linkedin", "username": "Kairi Tanaka", "url": "https://www.linkedin.com/in/kairi-tanaka-4067a5262/" }
@@ -23,11 +23,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Javascript" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Git/GitHub" ]
     }
   ],
   "education": [
