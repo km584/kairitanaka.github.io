@@ -2,27 +2,51 @@
 layout: project
 type: project
 image: img/vacay/vacay-square.png
-title: "Vacay"
-date: 2015
+title: "Pokemon GUI of Hunt and Pokedex"
+date: 2021
 published: true
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
+  - Java
   - GitHub
-summary: "A responsive web application for travel planning that my team developed in ICS 415."
+summary: "This program is group project and this developed in ICS 211."
 ---
 
 <img class="img-fluid" src="../img/vacay/vacay-home-page.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+This program is create the GUI of Pokemon that user could play to hunt Pokemon and catch. And can store Pokemon data in Pokedex and in backpack button it will display all Pokemon that were catch even Pokemon is duplicate, for Pokedex will only display the Pokemon once.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+This program is implements Pokemon status and Pokedex function and the class of Pokemon panel that is requires to display and works the button and the text area in GUI. 
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+From this group work, I learned that how the GUI function is works like when user push the button what function will work and display the text of result of function. I feel this is important to know how the GUI could be made, it have to be made frame and function and these are connected.
 
-Here is some example code to illustrate Simple Schema use:
+This is the main method of GUI frame:
 
-{% gist 9defa1fb3f4eb593ba5fa9eacedca960 %}
- 
+'''import javax.swing.JFrame;
+/**
+* Assignment 9: Pokemon GUI - the Frame.
+* @author Kairi Tanaka & Jamie Laurin
+* @since 12/03/2021
+*/
+public class PokemonFrame {
+  /** main method.
+   * @param args not used
+   */
+   public static void main(String[] args) {
+      // basic JFrame setup
+      JFrame frm = new JFrame("Pokemon Go");
+      frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+   
+      // contents here 
+      frm.getContentPane().add(new PokemonPanel());
+   
+      // displays to screen
+      frm.pack();
+      frm.setVisible(true);
+    
+   }
+}
+'''
+
+This is the main method of GUI frame and there is one more class that is connected to frame, this will be more important function class that program of how the result will display by user input. So the frame is outlook from outside and the panel will be a function structed inside of the frame that button or user input will gets the result output.
+
 Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>
