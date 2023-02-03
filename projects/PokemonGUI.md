@@ -49,4 +49,5 @@ public class PokemonFrame {
 
 This is the main method of GUI frame and there is one more class that is connected to frame, this will be more important function class that program of how the result will display by user input. So the frame is outlook from outside and the panel will be a function structed inside of the frame that button or user input will gets the result output.
 
-Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>
+Source: <a href="https://github.com/km584/km584.github.io/blob/main/PokemonFrame.java">PokemonFrame</a>
+Source: <a href="https://github.com/km584/km584.github.io/blob/main/PokemonPanel.java">PokemonFrame</a>
