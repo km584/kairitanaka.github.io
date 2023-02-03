@@ -86,4 +86,4 @@ import java.util.Scanner;
 
 <hr>
 
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>kairi/ics211-Pokedex</a>
+Source: <a href="https://github.com/km584/km584.github.io/blob/main/Pokedex.java"><i class="large github icon "></i>kairi/ics211-Pokedex</a>
