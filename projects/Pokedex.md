@@ -1,9 +1,10 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: https://user-images.githubusercontent.com/89556168/216534084-1b21cc28-20c3-4030-a8e4-1410589de75a.jpeg
 title: "Pokedex"
 date: 2021
+
 published: true
 labels:
   - Java
