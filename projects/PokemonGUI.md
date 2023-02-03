@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/vacay/vacay-square.png
+image: img/PokemonGo.jpeg
 title: "Pokemon GUI of Hunt and Pokedex"
 date: 2021
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "This program is group project and this developed in ICS 211."
 ---
 
-<img class="img-fluid" src="../img/vacay/vacay-home-page.png">
+<img class="img-fluid" src="../img/PokemonHuntGUI.jpeg">
 
 This program is create the GUI of Pokemon that user could play to hunt Pokemon and catch. And can store Pokemon data in Pokedex and in backpack button it will display all Pokemon that were catch even Pokemon is duplicate, for Pokedex will only display the Pokemon once.
 
