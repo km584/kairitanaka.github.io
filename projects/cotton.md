@@ -2,56 +2,87 @@
 layout: project
 type: project
 image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
+title: "Pokedex"
+date: 2021
 published: true
 labels:
-  - Lisp
+  - Java
   - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+summary: "A pokedex of Pokemon created in ICS 211."
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
-
-To give you a flavor of the game, here is an excerpt from one run:
+In this project it is using class in class by calling function to implement the class objects. This project have at least four file to make a pokedex that makes function to put out the Pokemon datas but the data of Pokemon status and type have to be create file and implement in the class. It could add more Pokemon by creating the class of Pokemon status and type of Pokemon, also it could be possible to make Pokedex that stores the every Pokemon by implementing the all Pokemon class.
 
 <hr>
 
 <pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
+The below are part of pokedex function that takes user input by switch statement that output the add, remove and prints Pokemon in pokedex by array by using function calls.
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
+```
+import java.util.Scanner;
 
-pickup candle
-- you are now carrying the candle -
+ /**.
+ * Class for Pokedex driver
+ * @author Kairi Tanaka
+ * @since 11/25/21
+ */
 
-pickup match
-- you are now carrying the match -
+ public class Pokedex {
 
-light match candle
+    /**.
+    * Pokedex Ask Pokemons to add and remove from tree
+    * @param commandlineArguments are not used
+    */
 
-The candle is now lit. It illuminates everything in the room.
+    public static void main(String[] commandlineArguments) {
 
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
+       //variable sets
+       Pokemon pTemp;
+       PokeTree<Pokemon> tree = new PokeTree<>();
+       Scanner userIn = new Scanner(System.in);
+       String inString = "";
+       boolean end = false;
+
+       //while user not input 0 keep asking
+       while (!end) {
+          System.out.println("Please enter number");
+          System.out.println("1: Add Pokemon\n" + "2: Release a Pokemon\n"
+             + "3: Print Pokedex\n" + "0: End Pokedex");
+          inString = userIn.nextLine();
+          inString = inString.trim();
+
+          switch(inString) {
+             case "0": 
+                end = true;
+                System.out.println("Goodbye");
+                break;
+
+             case "1":
+                pTemp = Pokedex.addPokemon();
+                tree.add(pTemp);
+
+                break;
+
+             case "2":
+                pTemp = Pokedex.addPokemon();
+                tree.remove(pTemp);
+                break;
+
+             case "3":
+                System.out.println(tree.printPokeTree());
+                break;
+
+             default:
+                System.out.println("Invalid input");
+                break;
+          }
+       }
+    }
+```
+
 </pre>
 
 <hr>
