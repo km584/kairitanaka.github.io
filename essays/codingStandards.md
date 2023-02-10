@@ -23,3 +23,6 @@ function averagePopulation(cities, place)
 ```
 
 I think coding standards are a very good way to improve the quality of your code and a very useful technique for learning to write clean and understandable code. This coding standard tells us what kind of problems there are in the code. If the data inside is the same, it may cause misunderstanding and the code may not be read correctly. So I think this coding standard will help you learn what kind of code causes problems, and you will be able to write more sophisticated code by using it repeatedly.
+
+I used ESLint in IntelliJ and touched on coding standards. My first impression was that even if it was a minor problem, the coding standard would issue it as a problem in the code, so I didn't really understand it. And now it takes time to clear the coding standards, each problem can be dealt with if you understand what is causing the problem, but you do not know well what causes the problem of coding standards. There are a lot of coding standards and it takes time to solve them, but there is a lot to learn, so it may be a trivial thing to absorb knowledge from there and write code cleanly and clearly, but in the future I think it's useful because it makes it easier to understand which functions are available when working in groups.
+
