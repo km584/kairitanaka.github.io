@@ -22,3 +22,4 @@ function averagePopulation(cities, place)
   let max = _.max(populationPlace, function(num){return populationPlace.island})
 ```
 
+I think coding standards are a very good way to improve the quality of your code and a very useful technique for learning to write clean and understandable code. This coding standard tells us what kind of problems there are in the code. If the data inside is the same, it may cause misunderstanding and the code may not be read correctly. So I think this coding standard will help you learn what kind of code causes problems, and you will be able to write more sophisticated code by using it repeatedly.
