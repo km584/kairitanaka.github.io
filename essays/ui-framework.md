@@ -11,6 +11,8 @@ labels:
 
 <img class="img-fluid" src="../img/bootstrap-withicons.png">
 
+## What is Bootstrap?
+
 First of all, what is Bootstrap? Since it is a kind of UI Framework and has a framework that allows you to create a website, you can use these to create various web pages such as buttons and links. However, this requires a huge amount of knowledge, because instead of being able to add various functions, you have to set a large number of classes and functions. For example, you have to use this many classes just to create one navigation header like the code below.
 
 ```
@@ -47,5 +49,12 @@ First of all, what is Bootstrap? Since it is a kind of UI Framework and has a fr
 </nav>
 ```
 
+## Good things about using Bootstrap
+
+<img class="img-fluid" src="../img/web-design.jpeg">
+
 However, unlike CSS and HTML, this Bootstrap has much more settings and customization possibilities. With CSS, you can do simple things such as projecting simple sentences and images on a website, arranging them, creating spaces, and connecting to other links, but you can't create other frames that you can do with UIFramework like Bootstrap. Bootstrap is a very useful tool in this regard, and with this Bootstrap you can create icons, buttons, checkboxes and text areas, so you can add various features that are more complex and functional like other websites. I can.
 
+## Overall about Bootstrap
+
+In conclusion, CSS and HTML are suitable for creating simple websites, and UI Frameworks like Bootstrap are complex and suitable for adding functions, so they are suitable tools for creating corporate websites. I think so, for those who want to be a web developer, this UI Framework is a tool that allows them to understand how a website is made. However, with this UIframework, you don't have to learn all the knowledge, but if you don't have a certain amount of knowledge, it will be difficult. However, I think this UI Framework is very useful, but I personally don't want to use it because it may not work well with various settings. An honest and holistic assessment of UI Frameworks would make Bootstrap a fundamental tool for web designers and web developers.
