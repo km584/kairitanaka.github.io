@@ -10,6 +10,7 @@ labels:
 ---
 
 <img class="img-fluid" src="../img/bootstrap-withicons.png">
+<img class="img-fluid" src="../img/arrange-websites.jpeg">
 
 ## What is Bootstrap?
 
