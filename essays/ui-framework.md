@@ -45,3 +45,5 @@ First of all, what is Bootstrap? Since it is a kind of UI Framework and has a fr
 </nav>
 ```
 
+However, unlike CSS and HTML, this Bootstrap has much more settings and customization possibilities. With CSS, you can do simple things such as projecting simple sentences and images on a website, arranging them, creating spaces, and connecting to other links, but you can't create other frames that you can do with UIFramework like Bootstrap. Bootstrap is a very useful tool in this regard, and with this Bootstrap you can create icons, buttons, checkboxes and text areas, so you can add various features that are more complex and functional like other websites. I can.
+
