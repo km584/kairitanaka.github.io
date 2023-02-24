@@ -9,6 +9,8 @@ labels:
   - UI Framework
 ---
 
+<img class="img-fluid" src="../img/bootstrap-withicons.png">
+
 First of all, what is Bootstrap? Since it is a kind of UI Framework and has a framework that allows you to create a website, you can use these to create various web pages such as buttons and links. However, this requires a huge amount of knowledge, because instead of being able to add various functions, you have to set a large number of classes and functions. For example, you have to use this many classes just to create one navigation header like the code below.
 
 ```
