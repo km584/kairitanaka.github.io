@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 published: true
-title: "Is it really Needed to know UI framework?"
+title: "Bootstrap is complex web design tool?"
 date: 2023-02-23
 labels:
   - ICS
