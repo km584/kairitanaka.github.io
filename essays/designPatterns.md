@@ -9,7 +9,7 @@ labels:
   - software engineering
 ---
 
-<img class="img-fluid" src="../img/code picture.jpeg">
+<img class="img-fluid" src="../img/designPattern.png">
 
 ## Design effectively
 
