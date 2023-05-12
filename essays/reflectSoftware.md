@@ -10,6 +10,7 @@ labels:
   - coding standard
 ---
 
+<img class="img-fluid" src="../img/program.jpeg">
 
 ## What I abosorb knowledge
 
