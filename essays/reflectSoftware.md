@@ -13,10 +13,12 @@ labels:
 
 ## What I abosorb knowledge
 
-I have receieved and abosorb much of the knowledge from this class. 
+Through this course, I learned various software engineering concepts that will be very useful in the future. What I learned in this course is useful in practice, such as how to design programs and how to use redundant functions, and these are useful when actually developing software.
 
 ## Functional Programming
 
 
 ## Coding Standard
 
+
+## In last
