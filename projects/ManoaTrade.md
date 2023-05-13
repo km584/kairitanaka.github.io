@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Pokemon Pokedex Data.png
+image: img/UHManoa.jpeg
 title: "Manoa Trade"
 date: 2023
 
@@ -12,11 +12,15 @@ labels:
 summary: "Manoa Trade ICS 314 Final Project."
 ---
 
-<img class="img-fluid" src="../img/Pokedex image.jpeg">
+<img class="img-fluid" src="../img/categorylist.png">
 
-In this project it is using class in class by calling function to implement the class objects. This project have at least four file to make a pokedex that makes function to put out the Pokemon datas but the data of Pokemon status and type have to be create file and implement in the class. It could add more Pokemon by creating the class of Pokemon status and type of Pokemon, also it could be possible to make Pokedex that stores the every Pokemon by implementing the all Pokemon class.
+## About Project 
+This project is about ICS 314 final project that make functional webpage. This webpage is list the item that people want to sales and it could trade within UH manoa community. It could sets the price of want to sale and people could buy the items.
 
-The below are part of pokedex function that takes user input by switch statement that output the add, remove and prints Pokemon in pokedex by array by using function calls.
+## Contribution
+I have worked on the mainly category list page that will display separated items and the coding standards and also I worked on testcafe to test the webpage is actually could working correctly.
+
+In overall, I learned more things from this project that can improve more skills on software engineering and also communication to others to working together.
 
 
 Source: <a href="https://github.com/manoa-trade-your-stuff/manoa-trade-your-stuff-page"><i class="large github icon "></i>ics314-ManoaTrade</a>
