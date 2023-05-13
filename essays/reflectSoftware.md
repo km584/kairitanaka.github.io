@@ -26,4 +26,4 @@ Coding standards are a tool for minimizing errors and making code more organized
 
 ## In the last
 
-
+What I learned in this semester gave me useful knowledge for software engineering practice. These are important skills for the future, so I will continue to aim for efficient software development by using these concepts and skills.
