@@ -32,12 +32,15 @@
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2024)",
       "studyType": "B.S.",
       "startDate": "2022-08-21",
       "endDate": "Present",
       "courses": [
+        Software engineering,
+        Discrete mathematics,
+        Algorithms
       ]
     }
   ],
