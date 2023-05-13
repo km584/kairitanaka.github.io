@@ -11,6 +11,7 @@ labels:
   - StackOverflow
 ---
 
+<img class="img-fluid" src="../img/goodQuestion.jpeg">
 
 ## What could be a bad questions?
 
