@@ -23,7 +23,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Meteor", "React" ]
     },
     {
       "name": "Toolsets/OS",
@@ -38,9 +38,21 @@
       "startDate": "2022-08-21",
       "endDate": "Present",
       "courses": [
-        Software engineering,
-        Discrete mathematics,
-        Algorithms
+        "Software engineering",
+        "Discrete mathematics",
+        "Algorithms"
+      ]
+    },
+    {
+      "institution": "Kapiolani Community College, Honolulu, HI",
+      "area": "Natural Science, Information and Communication Technology",
+      "studyType": "A.S.",
+      "startDate": "2020-08-21",
+      "endDate": "2022",
+      "courses": [
+        "Intro to Computer Science",
+        "Discrete mathematics",
+        "CSCI Program Structure"
       ]
     }
   ],
