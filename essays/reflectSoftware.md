@@ -22,5 +22,8 @@ Functional Programming is what makes work and efficiency when designing programs
 
 ## Coding Standard
 
+Coding standards are a tool for minimizing errors and making code more organized and readable for other programmers in software projects by structuring programs according to guidelines for writing code. Writing code according to this coding standard helps software engineers build more sophisticated code and make the functionality of the code easier for others to understand. This improves readability and saves extra time when multiple people are writing code on a project, so they can work more efficiently. I think this will eventually lead to success in the project because it will be easier to understand where to fix when there is a problem in the code.
 
-## In last
+## In the last
+
+
