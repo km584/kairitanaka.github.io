@@ -9,7 +9,7 @@ labels:
   - ICS
 ---
 
-<img class="img-fluid" src="../img/program.jpeg">
+<img class="img-fluid" src="../img/web-design.jpeg">
 
 ## What I earned
 
