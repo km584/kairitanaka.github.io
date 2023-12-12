@@ -11,18 +11,14 @@ labels:
 
 <img class="img-fluid" src="../img/program.jpeg">
 
-## What I absorb knowledge
+## What I earned
 
-Through this course, I learned various software engineering concepts that will be very useful in the future. What I learned in this course is useful in practice, such as how to design programs and how to use redundant functions, and these are useful when actually developing software.
+Through this course, I learned various software engineering knowledge of functions call for semantic ui and bootstrap, also programming skills to convert the different type. This knowledge and skill could use in practice to improve and learn how differences on functions call or not calling like semantic ui requires to import the function but some are bootstrap could use function without import the function.
 
-## Functional Programming
+## Growth skills in this class
 
-Functional Programming is what makes work and efficiency when designing programs.The reason for this is that if you set a function in advance with a function, you can easily call the function just by pulling that function. And since there is no need to add functions one by one, you can save time by eliminating duplicate functions and their time. This functional programming reduces waste, so you can design programs efficiently, and by being able to design cleanly, you can more easily manage which function is used.
-
-## Coding Standard
-
-Coding standards are a tool for minimizing errors and making code more organized and readable for other programmers in software projects by structuring programs according to guidelines for writing code. Writing code according to this coding standard helps software engineers build more sophisticated code and make the functionality of the code easier for others to understand. This improves readability and saves extra time when multiple people are writing code on a project, so they can work more efficiently. I think this will eventually lead to success in the project because it will be easier to understand where to fix when there is a problem in the code.
+From this class we worked with team to create the web page for customer needs, so working on project it required to determine what kind of functions will make more benefits to user for smooth way to working in website. To discover problem or function that inconvenience could be find by self but the best way is to discuss with other people to how can improve more. This will able to share the progress of project and opinion to improve more and also it could share the problem of fixing or modified the code to improve the website. The other skill is that time management could level up if tried to working issues on time, so that will leads to working on same amount of time and make easier to manage the schedule to finish the project.
 
 ## In the last
 
-What I learned in this semester gave me useful knowledge for software engineering practice. These are important skills for the future, so I will continue to aim for efficient software development by using these concepts and skills.
+What I learned in this semester gave me useful knowledge for software engineering practice. These are important skills for the future, so I will continue to aim for efficient software development by using these concepts and skills. Mostly focus on the time management to work finish earlier before the deadline to make more space to not rush up to finish the assignment.
