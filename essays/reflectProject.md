@@ -3,11 +3,10 @@ layout: essay
 type: essay
 published: true
 title: "Growth of Software Engineering"
-date: 2023-05-10
+date: 2023-12-11
 labels:
   - software engineering
-  - functional programming
-  - coding standard
+  - ICS
 ---
 
 <img class="img-fluid" src="../img/program.jpeg">
